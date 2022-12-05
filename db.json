@@ -1,0 +1,51 @@
+{
+  "shipments": [
+    {
+      "shipmentOwnerCompanyId": "1",
+      "creatorCompanyId": "2",
+      "id": 1
+    },
+    {
+      "shipmentOwnerCompanyId": "1",
+      "creatorCompanyId": "2",
+      "id": 2
+    }
+  ],
+  "documents": [
+    {
+      "shipmentId": 1,
+      "documentType": "bill_of_lading",
+      "bl": {
+        "eta": null,
+        "pol": null,
+        "por": null
+      },
+      "id": 1
+    },
+    {
+      "shipmentId": 2,
+      "documentType": "bill_of_lading",
+      "bl": {
+        "eta": null,
+        "pol": null,
+        "por": null
+      },
+      "id": 2
+    }
+  ],
+  "files": [],
+  "company": [
+    {
+      "companyName": "Brazilian Coffee Ltd",
+      "id": 1
+    },
+    {
+      "companyName": "Conatiners Shipping LLC",
+      "id": 2
+    },
+    {
+      "companyName": "Freight Forwarder United",
+      "id": 3
+    }
+  ]
+}
